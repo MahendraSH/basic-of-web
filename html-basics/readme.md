@@ -83,13 +83,21 @@
 
 ```
  <b> vs. <strong>
-It is often confusing to new developers why there are so many ways to express the same thing on a rendered website. <b> and <strong> are perhaps one of the most common sources of confusion, causing developers to ask "Should I use <b> or <strong>? Don't they both do the same thing?"
+It is often confusing to new developers why there are so many ways to express the same 
+thing on a rendered website. <b> and <strong> are perhaps one of the most common sources
+of confusion, causing developers to ask "Should I use <b> or <strong>? Don't they both do the same thing?"
 
-Not exactly. The <strong> element is for content that is of greater importance, while the <b> element is used to draw attention to text without indicating that it's more important.
+Not exactly. The <strong> element is for content that is of greater importance, while the <b> 
+element is used to draw attention to text without indicating that it's more important.
 
-It may help to realize that both are valid and semantic elements in HTML and that it's a coincidence that they both have the same default styling (boldface) in most browsers (although some older browsers actually underline <strong>). Each element is meant to be used in certain types of scenarios, and if you want to bold text for decoration, you should instead actually use the CSS font-weight property.
+It may help to realize that both are valid and semantic elements in HTML and that
+it's a coincidence that they both have the same default styling (boldface) in most
+browsers (although some older browsers actually underline <strong>). Each element 
+is meant to be used in certain types of scenarios, and if you want to bold text for
+decoration, you should instead actually use the CSS font-weight property.
 
-The intended meaning or purpose of the enclosed text should be what determines which element you use. Communicating meaning is what semantics are all about. 
+The intended meaning or purpose of the enclosed text should be what determines which element you use. 
+Communicating meaning is what semantics are all about. 
 ```
 
 ---
@@ -107,17 +115,29 @@ The intended meaning or purpose of the enclosed text should be what determines w
 
 ```
  <i> vs. <em>
-Some developers may be confused by how multiple elements seemingly produce similar visual results. <em> and <i> are a common example, since they both italicize text. What's the difference? Which should you use?
+Some developers may be confused by how multiple elements seemingly produce similar
+visual results. <em> and <i> are a common example, since they both italicize
+text. What's the difference? Which should you use?
 ```
 ```
-By default, the visual result is the same. However, the semantic meaning is different. The <em> element represents stress emphasis of its contents, while the <i> element represents text that is set off from the normal prose, such a foreign word, fictional character thoughts, or when the text refers to the definition of a word instead of representing its semantic meaning. (The title of a work, such as the name of a book or movie, should use <cite>.) -->
+By default, the visual result is the same. However, the semantic meaning is different.
+The <em> element represents stress emphasis of its contents, while the <i> element represents 
+text that is set off from the normal prose, such a foreign word, fictional character thoughts,
+or when the text refers to the definition of a word instead of representing its semantic meaning. 
+(The title of a work, such as the name of a book or movie, should use <cite>.) -->
 ```
 ---
 ---
  ``` <em> vs. <strong> 
-Adding to the confusion is the fact that while HTML 4 defined <strong> as indicating a stronger emphasis, HTML 5 defines <strong> as representing "strong importance for its contents." This is an important distinction to make.
+Adding to the confusion is the fact that while HTML 4 defined <strong> as indicating
+a stronger emphasis, HTML 5 defines <strong> as representing "strong 
+importance for its contents." This is an important distinction to make.
 
-While <em> is used to change the meaning of a sentence as spoken emphasis does ("I love carrots" vs. "I love carrots"), <strong> is used to give portions of a sentence added importance (e.g., "Warning! This is very dangerous.") Both <strong> and <em> can be nested to increase the relative degree of importance or stress emphasis, respectively. 
+While <em> is used to change the meaning of a sentence as spoken emphasis does
+("I love carrots" vs. "I love carrots"), <strong> is used to give portions of 
+a sentence added importance (e.g., "Warning! This is very dangerous.") 
+Both <strong> and <em> can be nested to increase the relative degree of importance 
+or stress emphasis, respectively. 
 ```
 ---
 ---
