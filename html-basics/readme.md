@@ -175,23 +175,24 @@ While <em> is used to change the meaning of a sentence as spoken emphasis does (
 <img src="https://media-exp1.licdn.com/dms/image/C5603AQFYd4O7S6WLfQ/profile-displayphoto-shrink_400_400/0/1629387644470?e=1672272000&v=beta&t=8gpivCoBbEa4m2m3P5TzNZ0wLdOlvY-VpelolPQPNCY" width="200" alt="my linkdin profie">
 
 
-<br>
-<hr size="3" noshade>
+---
+---
 
-<!-- _____________________________________________________________________________ -->
-<!--  hiper links -->
+###  hiper links -->
 
-<br>
-<hr size="3" noshade>
-
+```
+<em>
+  <br>
+  <strong><a href="https://nie.ac.in/blog/department/cse-department/">Computer science </a></strong> <br>
+  <a href="https://nie.ac.in/"> Nation intiute of engneering Mysore</a>
+</em>
+```
 <!-- _____________________________________________________________________________ -->
 <em>
   <br>
   <strong><a href="https://nie.ac.in/blog/department/cse-department/">Computer science </a></strong> <br>
   <a href="https://nie.ac.in/"> Nation intiute of engneering Mysore</a>
 </em>
-<br>
-<hr size="3" noshade>
 
 <!-- _____________________________________________________________________________ -->
 ### table example
